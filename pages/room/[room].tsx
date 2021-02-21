@@ -29,13 +29,13 @@ const RoomPage = () => {
   return (
     <>
       <Head>
-        <title>Chattr · Room: {query?.room}</title>
-        <meta property="og:title" content={`Chattr · Join room`} />
+        <title>SWF · Room: {query?.room}</title>
+        <meta property="og:title" content={`SWF · Join room`} />
         <meta
           property="og:description"
           content="One-on-one hangouts in a fun and secure way"
         />
-        <meta property="og:image" content="https://chattr.lol/og-image4.jpg" />
+        <meta property="og:image" content="https://streamwithfriends.online/og-image4.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <script>
           if(/^\?fbclid=/.test(location.search))

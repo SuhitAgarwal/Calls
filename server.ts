@@ -74,7 +74,7 @@ io.on("connection", (socket) => {
 
   io.to(room).emit("listUsers", rooms[room].users)
 
-  io.to(room).emit("chatConnection", "Welcome to Chattr!")
+  io.to(room).emit("chatConnection", "Welcome to SWF!")
 
   console.log("USERS", rooms[room].users)
 

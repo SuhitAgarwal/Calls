@@ -12,7 +12,7 @@ const DetectWrongBrowser = () => {
         data-testid="logo-detect-browser"
       />
       <TextDetectBrowser>
-        Chattr doesn't currently support your browser. Please use a desktop
+        SWF doesn't currently support your browser. Please use a desktop
         Chromium-based browser (Chrome, Edge, Brave) or Firefox.
       </TextDetectBrowser>
       <Portal />
