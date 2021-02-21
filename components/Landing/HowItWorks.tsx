@@ -36,7 +36,7 @@ const stepsData = [
   },
   {
     id: 5,
-    src: "/yt-watch.webp",
+    src: "/create.webp",
     alt: "Step 4 - Enjoy watching :)",
     title: "Enjoy watching 👀",
     desc: "Press play and enjoy!",
@@ -89,7 +89,7 @@ const HowItWorks = () => {
       <Container>
         <Title>How it works</Title>
         <Tagline>
-          Chattr is a free p2p video chat app with your security in mind
+          SWF is a free p2p video chat app with your security in mind
         </Tagline>
         {isVisible && (
           <MotionConfig features={features}>

@@ -12,7 +12,7 @@ import Img from "react-optimized-image"
 import Navbar from "../Navigation/Navbar"
 import Bar from "./Bar"
 
-import demo from "../../public/demo-yt.webp"
+import demo from "../../public/create.webp"
 
 const Hero = () => {
   const { scrollY } = useViewportScroll()
