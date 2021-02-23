@@ -109,7 +109,7 @@ io.on("connection", (socket) => {
       (user: User) => user.id !== socket.id
     )
 
-    io.to(room).emit("userLeftChattr")
+    io.to(room).emit("userLeftSWF")
     io.to(room).emit("listUsers", rooms[room].users)
     socket.leave(room)
 
